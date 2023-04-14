@@ -16,3 +16,11 @@ except (NameError, Exception) as e:
         print("Name error")
     else: 
         print(f"{e}")
+# else block 
+else:
+    # code to execute if there are no exceptions
+    print(user)
+# finally block
+finally:
+    # code to execute regardless of an exception or not
+    print("end of program")
