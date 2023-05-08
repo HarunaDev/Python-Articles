@@ -66,14 +66,14 @@ for fruit in list:
 # check '_io.TextIOWrapper'
 
 # handle opening a wrong file
-hand_doc = input("Enter file name: ")
+# hand_doc = input("Enter file name: ")
 
-fhand = open(hand_doc)
+# fhand = open(hand_doc)
 
-for line in fhand:
-    line = line.rstrip()
-    if '#' in line:
-        print(line)
+# for line in fhand:
+#     line = line.rstrip()
+#     if '#' in line:
+#         print(line)
 
 # search through file
 # for line in fhand:
@@ -92,3 +92,9 @@ for line in fhand:
 # for line in fhand:
 #     count = count + 1
 # print("lines counted:", count)
+
+# shop_string = "orange, banana, apple, mango, grape"
+
+# new_list = shop_string.split(',')
+
+# print(len(new_list))
