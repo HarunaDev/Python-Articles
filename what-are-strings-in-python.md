@@ -23,7 +23,7 @@ print('hello world')
 # Double quotes string
 print("It's a good day")
 
-# Tripple quotes string
+# Triple quotes string
 print('''Multi
 Line
 String''')
@@ -51,7 +51,7 @@ Which allows us to perform array-like methods to manipulate the data in the stri
     substring = my_string[2:-2] # "llo wor"
     ```
 
-3. String Iteration: A sting being an array of characters allows us to iterate through each character using a [`for`](https://www.freecodecamp.org/news/for-loops-in-python-with-example-code/) loop. For example:  
+3. String Iteration: A string being an array of characters allows us to iterate through each character using a [`for`](https://www.freecodecamp.org/news/for-loops-in-python-with-example-code/) loop. For example:  
 
     ```python
     my_string = "hello"
